@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@100&display=swap');
+
+.nav{
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    color: white;
+    margin-top: 20px;
+   
+}
+
+.icon1{
+    position: absolute;
+    border: solid white;
+    width: 50px;
+    text-align: center;
+    font-family: Roboto; 
+color: white;
+font-size: 20px;
+line-height: 33px;
+margin-left: 20px;
+}
+
+.nav ul{
+    
+    list-style: none;
+    display: flex;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+   
+}
+
+.nav ul li{
+margin: auto;
+font-family: Roboto; 
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 33px;
+color: #FFFFFF;
+
+}
+
+.icon2{
+    float: right;
+    border: solid white;
+    width: 50px;
+    text-align: center;
+    font-family: Roboto; 
+    color: white;
+    font-size: 20px;
+    line-height: 33px;
+   
+}
+
+@media only screen and (max-width: 1000px){
+    .nav{
+        display: none;
+    }
+}
